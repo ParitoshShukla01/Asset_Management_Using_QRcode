@@ -57,6 +57,7 @@ public class scan extends AppCompatActivity implements View.OnClickListener {
             public void onClick(View view) {
                 FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(scan.this,MainActivity.class));
+                finish();
             }
         });
     }

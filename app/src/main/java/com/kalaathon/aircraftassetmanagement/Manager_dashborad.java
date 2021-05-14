@@ -58,7 +58,6 @@ public class Manager_dashborad extends AppCompatActivity {
             }
         });
 
-
         verify.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
