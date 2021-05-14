@@ -12,5 +12,15 @@ Our application is developed using Firebase, Android studio & Quick Response sys
 <img src="https://user-images.githubusercontent.com/55193959/118280786-2588c780-b4ea-11eb-811d-90502601ac40.jpeg" width="30%"></img> <img src="https://user-images.githubusercontent.com/55193959/118280788-26215e00-b4ea-11eb-8a4f-cab5b4211e84.jpeg" width="30%"></img> 
 
 
+You can use [this link](http://goqr.me/#) to generate new QR codes using below sample code as shown in figure
+
+{
+"UID" : 123
+}
+
+![image](https://user-images.githubusercontent.com/55193959/118282373-d6439680-b4eb-11eb-9e41-b133bd6ae4bd.png)
+
+
+
 
 
