@@ -13,6 +13,7 @@ Our application is developed using Firebase, Android studio & Quick Response sys
 
 
 You can use [this link](http://goqr.me/#) to generate new QR codes using below sample code as shown in figure
+
 {
 "UID" : 123
 }(*enter a new UID in place of 123)
