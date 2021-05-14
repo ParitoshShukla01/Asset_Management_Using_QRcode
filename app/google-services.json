@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "163212894488",
+    "project_id": "aircraft-asset-management",
+    "storage_bucket": "aircraft-asset-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163212894488:android:767030cf1c302c5f827e6d",
+        "android_client_info": {
+          "package_name": "com.kalaathon.aircraftassetmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163212894488-d7bofr0mesg13eeibehbcbkc8qn9gmhl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kalaathon.aircraftassetmanagement",
+            "certificate_hash": "6da7bdf079a5f8d786a3f994e891e3b231054857"
+          }
+        },
+        {
+          "client_id": "163212894488-a80kt63pgr2mg11d9n4ap8jfot3mbsm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCamzyafD9EjLnTnDAPXeApZdS_ZHargUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163212894488-a80kt63pgr2mg11d9n4ap8jfot3mbsm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aircraft Asset Management</string>
+
+    <string-array name="operation">
+        <item>"Installed"</item>
+        <item>"Repair"</item>
+        <item>"Replace"</item>
+        <item>"None"</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>"Okay"</item>
+        <item>"Issue"</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateQr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asset\n Information"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="monospace"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="12dp"
+            android:hint="Asset Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/asset_name"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Aircraft Number">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aircraft_number"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="U.I.D">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/uid"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.skydoves.powerspinner.PowerSpinnerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:hint="Operation"
+        android:padding="10dp"
+        android:textColor="@color/whiteCardColor"
+        android:textColorHint="@color/whiteCardColor"
+        android:textSize="14.5sp"
+        app:spinner_arrow_gravity="end"
+        app:spinner_arrow_padding="8dp"
+        app:spinner_divider_color="@color/whiteCardColor"
+        app:spinner_divider_show="true"
+        app:spinner_divider_size="0.4dp"
+        app:spinner_item_array="@array/operation"
+        app:spinner_popup_animation="dropdown"
+        app:spinner_popup_background="@android:color/holo_blue_light"
+            android:id="@+id/operation"
+        app:spinner_popup_elevation="14dp"
+            android:layout_marginTop="20dp"/>
+
+        <com.skydoves.powerspinner.PowerSpinnerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:hint="Status"
+            android:padding="10dp"
+            android:textColor="@color/whiteCardColor"
+            android:textColorHint="@color/whiteCardColor"
+            android:textSize="14.5sp"
+            app:spinner_arrow_gravity="end"
+            app:spinner_arrow_padding="8dp"
+            app:spinner_divider_color="@color/whiteCardColor"
+            app:spinner_divider_show="true"
+            app:spinner_divider_size="0.4dp"
+            app:spinner_item_array="@array/status"
+            app:spinner_popup_animation="dropdown"
+            app:spinner_popup_background="@android:color/holo_blue_light"
+            android:id="@+id/status"
+            app:spinner_popup_elevation="14dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/progress"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:elevation="10dp"
+        android:visibility="gone"/>
+
+
+    <Button
+        style="@style/loginButton"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>
